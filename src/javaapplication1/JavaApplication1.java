@@ -10,7 +10,12 @@ package javaapplication1;
  * @author b00063329
  */
 public class JavaApplication1 {
-
+    public static void featureA() {
+        System.out.println("feature B added");
+    }
+    public static void featureB() {
+        System.out.println("feature A added");
+    }
     /**
      * @param args the command line arguments
      */
